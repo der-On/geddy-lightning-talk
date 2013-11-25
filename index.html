@@ -66,15 +66,26 @@
 
           <ul>
             <li>REST</li>
-            <li>Datenbanken: MongoDB, MySql, Postgresql, Riak, In-Memory</li>
+            <li>CLI</li>
+            <li>Datenbanken: MongoDB, LevelDB, MySql, SQLite, Postgresql, Riak, In-Memory, Dateisystem</li>
+            <li>Migrationen für SQL-Datenbanken</li>
+            <li>Sessions: Cookie, Memcache, Redis, MongoDB, In-Memory</li>
             <li>Template-Engines: EJS, Jade, Handlebars, Mustache, Swig</li>
             <li>Jedes Model in Geddy kann eine andere Datenbank verwenden.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Und was noch?</h2>
+
+          <ul>
             <li>Multithreaded dank Cluster</li>
             <li>Ressourcen Scaffolding</li>
             <li>Generatoren</li>
             <li>Eigener Task-Runner "<a href="https://github.com/mde/jake">Jake</a>"</li>
-            <li>Migrationen für SQL-Datenbanken</li>
+            <li>Realtime mit Socket.io</li>
             <li>I18n</li>
+            <li>Authorisierung mit Passport</li>
           </ul>
         </section>
 
@@ -152,7 +163,7 @@
               });
             });
 
-            $ geddy jake foo:bar // -> bargit 
+            $ geddy jake foo:bar // -> bargit
           </code></pre>
 
           <small>Jake war zuerst da, erst dann kam Grunt.</small>
